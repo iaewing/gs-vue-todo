@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" class="bg-blue-200"/>
+  <MainCard class="flex h-screen justify-center items-center"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainCard from "@/components/MainCard";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainCard,
   }
 }
 </script>
